@@ -1,5 +1,3 @@
-<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=default"></script>
-
 ## About
 The code repository for paper 
 "Anatomical Context Protects Against Adversarial Perturbations on Medical Imaging Deep Learning"
@@ -7,19 +5,23 @@ The code repository for paper
 ## Run codes
 To run the experiments, some parameters are needed.
 
-The first parameter is the attack method we want to run. 
+The **first parameter** is the attack method we want to run. 
 In this repository, four attacks are implemented.
 
-    gsm_exp: the \(l_\infty\) attack for a single image
-    l2_exp: the \(l_2\) attack for a single image
-    l0_exp: the \(l_0\) attack for a single image
-    multi_gsm: the \(l_\infty\) attack for multiple images
+* gsm_exp: the <img src="https://latex.codecogs.com/gif.latex?l_\infty" title="l_\infty" />
+attack for a single image
+* l2_exp: the <img src="https://latex.codecogs.com/gif.latex?l_2" title="l_2" /> 
+attack for a single image
+* l0_exp: the <img src="https://latex.codecogs.com/gif.latex?l_0" title="l_0" />
+attack for a single image
+* multi_gsm: the <img src="https://latex.codecogs.com/gif.latex?l_\infty" title="l_\infty" />
+attack for multiple images
     
-The second parameter is whether the model we want to attack used the MAS features.
+The **second parameter** is whether the model we want to attack used the MAS features.
 If the value with-mas is True, the model use the image data with the MAS
 features to predict age. Otherwise no features would be used.
 
-The third parameter is used to choose whether we want to maximize the 
+The **third parameter** is used to choose whether we want to maximize the 
 prediction age or minimize the prediction age by adding the perturbation.
 The value can be chosen to be max or min.
 
