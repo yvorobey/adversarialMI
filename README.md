@@ -32,6 +32,6 @@ by specifying the value of save-data.
 As an examples, to maximize the prediction age in the model with MAS features
 using l2 attack, we can do
 
-    python main.py --mode=l2_exp --with-mas=false --direction=max --start=0 --instances=1 --save-data=true
+    python main.py --mode=l2_exp --with-mas=true --direction=max --start=0 --instances=1 --save-data=true
 
 The code works on Python 3.5.3.
