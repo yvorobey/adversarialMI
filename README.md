@@ -35,3 +35,20 @@ using l2 attack, we can do
     python main.py --mode=l2_exp --with-mas=true --direction=max --start=0 --instances=1 --save-data=true
 
 The code works on Python 3.5.3.
+
+## Imaging Datasets
+All models were trained on an aggregate of healthy controls from 7 publicly available T1 MRI datasets:
+
+ABIDE 1: http://fcon_1000.projects.nitrc.org/indi/abide/abide_I.html
+
+ADHD200: http://fcon_1000.projects.nitrc.org/indi/adhd200/
+
+FCON-1000: http://fcon_1000.projects.nitrc.org/fcpClassic/FcpTable.html
+
+IXI: http://brain-development.org/ixi-dataset/
+
+NDAR: https://ndar.nih.gov/study.html?id=318
+
+NKI Rockland: http://fcon_1000.projects.nitrc.org/indi/enhanced/neurodata.html
+
+OASIS1: https://www.oasis-brains.org/
